@@ -308,14 +308,20 @@ function App() {
             <p className="section-subtitle">Explore our comprehensive range of professional certification courses</p>
           </AnimatedSection>
           
-          <div className="courses-scroll-container">
-            <div className="courses-scroll-wrapper">
-              {courses.map((course, index) => {
+          <div className="courses-marquee-container">
+            {/* First Row */}
+            <Marquee
+              gradient={false}
+              speed={40}
+              pauseOnHover={true}
+              className="mb-4"
+            >
+              {courses.slice(0, Math.ceil(courses.length / 2)).map((course, index) => {
                 const Icon = course.icon;
                 return (
                   <div 
                     key={index}
-                    className="course-card-scroll"
+                    className="course-card-scroll mx-3"
                     data-testid={`course-${course.name.toLowerCase().replace(/\s+/g, '-')}`}
                     onClick={() => handleCourseClick(course.name)}
                   >
@@ -327,7 +333,33 @@ function App() {
                   </div>
                 );
               })}
-            </div>
+            </Marquee>
+
+            {/* Second Row */}
+            <Marquee
+              gradient={false}
+              speed={40}
+              pauseOnHover={true}
+              direction="right"
+            >
+              {courses.slice(Math.ceil(courses.length / 2)).map((course, index) => {
+                const Icon = course.icon;
+                return (
+                  <div 
+                    key={index + Math.ceil(courses.length / 2)}
+                    className="course-card-scroll mx-3"
+                    data-testid={`course-${course.name.toLowerCase().replace(/\s+/g, '-')}`}
+                    onClick={() => handleCourseClick(course.name)}
+                  >
+                    <div className={`course-icon-scroll bg-gradient-to-br ${course.color}`}>
+                      <Icon size={32} className="text-white" />
+                    </div>
+                    <h4 className="course-name-scroll">{course.name}</h4>
+                    <ChevronRight size={18} className="course-arrow-scroll" />
+                  </div>
+                );
+              })}
+            </Marquee>
           </div>
         </div>
       </section>
