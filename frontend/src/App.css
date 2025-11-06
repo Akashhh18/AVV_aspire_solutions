@@ -317,19 +317,36 @@ body.light-theme .section-subtitle {
 
 /* Training Cards */
 .training-card {
-  background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 2rem;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 
+body.dark-theme .training-card {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.light-theme .training-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(241, 245, 249, 0.95) 100%);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
 .training-card:hover {
   transform: translateY(-8px);
+}
+
+body.dark-theme .training-card:hover {
   border-color: rgba(59, 130, 246, 0.5);
   box-shadow: 0 20px 60px rgba(59, 130, 246, 0.2);
+}
+
+body.light-theme .training-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.15);
 }
 
 .icon-wrapper {
