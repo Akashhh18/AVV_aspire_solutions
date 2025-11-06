@@ -494,9 +494,16 @@ body.light-theme .program-card:hover {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #cbd5e1;
   margin-bottom: 1rem;
   font-size: 1rem;
+}
+
+body.dark-theme .program-features li {
+  color: #cbd5e1;
+}
+
+body.light-theme .program-features li {
+  color: #475569;
 }
 
 .enroll-button {
