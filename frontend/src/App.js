@@ -360,7 +360,7 @@ function App() {
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                 Stand out in your field with globally recognized certifications from industry leaders. Our programs are designed to validate your expertise and accelerate your career growth.
               </p>
-              <div className="flex flex-wrap justify-center gap-4 mb-8">
+              <div className="flex flex-wrap justify-center gap-4">
                 <div className="cert-badge">
                   <CheckCircle size={20} className="text-green-400" />
                   <span>Industry Recognized</span>
@@ -374,9 +374,6 @@ function App() {
                   <span>Global Acceptance</span>
                 </div>
               </div>
-              <button className="cta-button" data-testid="view-certifications-btn">
-                View All Certifications
-              </button>
             </div>
           </AnimatedSection>
         </div>
