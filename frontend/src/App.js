@@ -210,7 +210,7 @@ function App() {
             <p className="section-subtitle">Choose the learning style that fits your schedule and goals</p>
           </AnimatedSection>
           
-          <div className="grid-4">
+          <div className="training-grid-2x2">
             {trainingOptions.map((option, index) => (
               <AnimatedSection key={index}>
                 <div 
