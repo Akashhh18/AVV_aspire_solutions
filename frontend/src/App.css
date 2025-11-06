@@ -784,8 +784,15 @@ body.light-theme .footer-title {
 .footer-heading {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #f1f5f9;
   margin-bottom: 1rem;
+}
+
+body.dark-theme .footer-heading {
+  color: #f1f5f9;
+}
+
+body.light-theme .footer-heading {
+  color: #1e293b;
 }
 
 .footer-links {
