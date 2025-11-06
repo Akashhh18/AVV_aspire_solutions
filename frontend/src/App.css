@@ -8,9 +8,20 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Theme (Default) */
+body.dark-theme {
   background: #0a0e27;
   color: #ffffff;
-  overflow-x: hidden;
+}
+
+/* Light Theme */
+body.light-theme {
+  background: #f8fafc;
+  color: #0f172a;
 }
 
 h1, h2, h3, h4 {
