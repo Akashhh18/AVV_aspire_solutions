@@ -409,11 +409,19 @@ body.light-theme .card-description {
 .training-details {
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  color: #cbd5e1;
   line-height: 1.8;
   font-size: 0.95rem;
   animation: slideDown 0.3s ease-out;
+}
+
+body.dark-theme .training-details {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+}
+
+body.light-theme .training-details {
+  border-top: 1px solid rgba(15, 23, 42, 0.1);
+  color: #475569;
 }
 
 @keyframes slideDown {
