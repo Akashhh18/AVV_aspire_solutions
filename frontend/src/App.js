@@ -161,6 +161,16 @@ function App() {
 
   return (
     <div className="App">
+      {/* Theme Toggle Button */}
+      <button 
+        className="theme-toggle" 
+        onClick={toggleTheme}
+        data-testid="theme-toggle-btn"
+        aria-label="Toggle theme"
+      >
+        {isDarkTheme ? <Sun size={24} /> : <Moon size={24} />}
+      </button>
+
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay"></div>
