@@ -330,7 +330,11 @@ function App() {
                     <span>Dedicated account manager and support</span>
                   </li>
                 </ul>
-                <button className="cta-button" data-testid="request-quote-btn">
+                <button 
+                  className="cta-button" 
+                  data-testid="request-quote-btn"
+                  onClick={() => window.open(GOOGLE_FORM_LINK, '_blank')}
+                >
                   Request a Quote
                 </button>
               </div>
