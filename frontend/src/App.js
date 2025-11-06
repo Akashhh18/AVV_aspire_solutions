@@ -186,7 +186,6 @@ function App() {
                 <div 
                   className="training-card"
                   data-testid={`training-option-${index}`}
-                  onClick={() => setShowTrainingDetails(showTrainingDetails === index ? null : index)}
                 >
                   <div className={`icon-wrapper bg-gradient-to-br ${option.gradient}`}>
                     <option.icon size={32} className="text-white" />
@@ -194,8 +193,18 @@ function App() {
                   <h3 className="card-title">{option.title}</h3>
                   <p className="card-description">{option.description}</p>
                   <div className="card-footer">
-                    <span className="learn-more">Learn More <ChevronRight size={16} className="inline" /></span>
+                    <span 
+                      className="learn-more"
+                      onClick={() => setShowTrainingDetails(showTrainingDetails === index ? null : index)}
+                    >
+                      Learn More <ChevronRight size={16} className="inline" style={{ transform: showTrainingDetails === index ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease' }} />
+                    </span>
                   </div>
+                  {showTrainingDetails === index && (
+                    <div className="training-details" data-testid={`training-details-${index}`}>
+                      <p>{option.details}</p>
+                    </div>
+                  )}
                 </div>
               </AnimatedSection>
             ))}
