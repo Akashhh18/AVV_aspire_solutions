@@ -177,9 +177,11 @@ function App() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="logo-container" data-testid="logo-container">
-            <div className="logo-placeholder">
-              <GraduationCap size={64} className="text-white" />
-            </div>
+            <img 
+              src="/avv-logo.png" 
+              alt="AVV Aspire Solutions Logo" 
+              className="avv-logo"
+            />
           </div>
           <h1 className="hero-title" data-testid="main-title">
             AVV Aspire Solutions
