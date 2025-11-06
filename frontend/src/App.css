@@ -971,12 +971,20 @@ body.light-theme .footer-bottom {
 }
 
 /* Color Classes */
-.text-gray-300 {
+body.dark-theme .text-gray-300 {
   color: #cbd5e1;
 }
 
-.text-gray-400 {
+body.light-theme .text-gray-300 {
+  color: #475569;
+}
+
+body.dark-theme .text-gray-400 {
   color: #94a3b8;
+}
+
+body.light-theme .text-gray-400 {
+  color: #64748b;
 }
 
 .text-blue-400 {
