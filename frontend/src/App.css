@@ -544,6 +544,17 @@ body.light-theme .program-features li {
   box-shadow: 0 15px 40px rgba(139, 92, 246, 0.4);
 }
 
+/* Courses Marquee Container */
+.courses-marquee-container {
+  margin-top: 3rem;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 /* Courses Horizontal Scroll */
 .courses-scroll-container {
   margin-top: 3rem;
