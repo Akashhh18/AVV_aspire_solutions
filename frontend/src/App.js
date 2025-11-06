@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import '@/App.css';
 import { BookOpen, Users, Globe, Video, GraduationCap, Award, Mail, Phone, MapPin, ChevronRight, Laptop, Shield, Cloud, Database, Code, Server, Smartphone, LineChart, Cpu, Network, Lock, CheckCircle, Sun, Moon } from 'lucide-react';
+import Marquee from 'react-fast-marquee';
 
 const GOOGLE_FORM_LINK = 'https://forms.google.com/your-form-link';
 
