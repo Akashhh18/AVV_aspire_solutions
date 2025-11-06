@@ -804,9 +804,16 @@ body.light-theme .footer-heading {
 }
 
 .footer-links a {
-  color: #94a3b8;
   text-decoration: none;
   transition: color 0.3s ease;
+}
+
+body.dark-theme .footer-links a {
+  color: #94a3b8;
+}
+
+body.light-theme .footer-links a {
+  color: #64748b;
 }
 
 .footer-links a:hover {
@@ -816,8 +823,16 @@ body.light-theme .footer-heading {
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
+}
+
+body.dark-theme .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #64748b;
+}
+
+body.light-theme .footer-bottom {
+  border-top: 1px solid rgba(15, 23, 42, 0.1);
+  color: #475569;
 }
 
 /* Utility Classes */
