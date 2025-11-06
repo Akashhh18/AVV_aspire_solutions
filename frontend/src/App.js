@@ -43,24 +43,28 @@ const trainingOptions = [
   {
     title: 'On-Premise Classroom Training',
     description: 'Interactive, hands-on learning in state-of-the-art facilities with expert instructors.',
+    details: 'Experience immersive learning in our modern training facilities equipped with the latest technology. Our on-premise classroom training offers face-to-face interaction with industry experts, collaborative learning environments, and immediate hands-on practice. Perfect for those who thrive in structured, in-person learning settings with direct access to instructors and networking opportunities with peers.',
     icon: Users,
     gradient: 'from-blue-500 to-cyan-500'
   },
   {
     title: 'Self-Paced Online Training',
     description: 'Learn at your own pace with 24/7 access to comprehensive course materials and resources.',
+    details: 'Our self-paced online training provides the ultimate flexibility for busy professionals. Access comprehensive video lectures, interactive modules, downloadable resources, and practice labs anytime, anywhere. Study at your own speed, revisit materials as needed, and balance your learning with work and personal commitments. Includes lifetime access to course materials and updates.',
     icon: Laptop,
     gradient: 'from-purple-500 to-pink-500'
   },
   {
     title: 'Blended Training',
     description: 'The perfect combination of online flexibility and in-person interaction for optimal learning.',
+    details: 'Get the best of both worlds with our blended training approach. Combine the convenience of online learning with the engagement of classroom sessions. Start with self-paced online modules to build foundational knowledge, then attend scheduled in-person workshops for advanced topics, hands-on labs, and collaborative projects. This hybrid model maximizes learning effectiveness while providing schedule flexibility.',
     icon: Globe,
     gradient: 'from-green-500 to-teal-500'
   },
   {
     title: 'Instructor-Led Live Online',
     description: 'Real-time virtual training with live instructors, interactive sessions, and peer collaboration.',
+    details: 'Join live, interactive virtual classrooms led by experienced instructors in real-time. Participate in live Q&A sessions, group discussions, collaborative exercises, and hands-on labs—all from the comfort of your home or office. Benefit from scheduled structure and accountability while enjoying the convenience of remote learning. Includes session recordings for review and catch-up.',
     icon: Video,
     gradient: 'from-orange-500 to-red-500'
   },
