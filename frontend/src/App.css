@@ -753,14 +753,28 @@ body.light-theme .footer {
 }
 
 .footer-section {
+}
+
+body.dark-theme .footer-section {
   color: #94a3b8;
+}
+
+body.light-theme .footer-section {
+  color: #475569;
 }
 
 .footer-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #f1f5f9;
   margin-bottom: 1rem;
+}
+
+body.dark-theme .footer-title {
+  color: #f1f5f9;
+}
+
+body.light-theme .footer-title {
+  color: #0f172a;
 }
 
 .footer-text {
