@@ -162,6 +162,10 @@ body.light-theme .hero-section {
   animation: fadeInUp 1s ease-out 0.2s both;
 }
 
+body.light-theme .hero-title {
+  color: #0f172a;
+}
+
 .hero-subtitle {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 600;
