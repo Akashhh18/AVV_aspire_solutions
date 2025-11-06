@@ -728,12 +728,12 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
   
-  .courses-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .employee-training-text {
     padding-right: 0;
+  }
+  
+  .course-card-scroll {
+    min-width: 240px;
   }
 }
 
