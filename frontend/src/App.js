@@ -278,25 +278,26 @@ function App() {
             <p className="section-subtitle">Explore our comprehensive range of professional certification courses</p>
           </AnimatedSection>
           
-          <div className="courses-grid">
-            {courses.map((course, index) => {
-              const Icon = course.icon;
-              return (
-                <AnimatedSection key={index}>
+          <div className="courses-scroll-container">
+            <div className="courses-scroll-wrapper">
+              {courses.map((course, index) => {
+                const Icon = course.icon;
+                return (
                   <div 
-                    className="course-card"
+                    key={index}
+                    className="course-card-scroll"
                     data-testid={`course-${course.name.toLowerCase().replace(/\s+/g, '-')}`}
                     onClick={() => handleCourseClick(course.name)}
                   >
-                    <div className={`course-icon bg-gradient-to-br ${course.color}`}>
-                      <Icon size={28} className="text-white" />
+                    <div className={`course-icon-scroll bg-gradient-to-br ${course.color}`}>
+                      <Icon size={32} className="text-white" />
                     </div>
-                    <h4 className="course-name">{course.name}</h4>
-                    <ChevronRight size={18} className="course-arrow" />
+                    <h4 className="course-name-scroll">{course.name}</h4>
+                    <ChevronRight size={18} className="course-arrow-scroll" />
                   </div>
-                </AnimatedSection>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
