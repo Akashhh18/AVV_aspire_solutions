@@ -77,8 +77,16 @@ body.light-theme .theme-toggle:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1729 100%);
   overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+body.dark-theme .hero-section {
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1729 100%);
+}
+
+body.light-theme .hero-section {
+  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 50%, #e0e7ff 100%);
 }
 
 .hero-section::before {
