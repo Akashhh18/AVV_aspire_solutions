@@ -137,6 +137,23 @@ const TypeWriter = ({ texts }) => {
 
 function App() {
   const [showTrainingDetails, setShowTrainingDetails] = useState(null);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setIsDarkTheme(savedTheme === 'dark');
+    }
+  }, []);
+
+  useEffect(() => {
+    document.body.className = isDarkTheme ? 'dark-theme' : 'light-theme';
+    localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
+  }, [isDarkTheme]);
+
+  const toggleTheme = () => {
+    setIsDarkTheme(!isDarkTheme);
+  };
 
   const handleCourseClick = (courseName) => {
     window.open(GOOGLE_FORM_LINK, '_blank');
