@@ -137,6 +137,13 @@ body.light-theme .hero-section {
   animation: fadeInDown 1s ease-out;
 }
 
+.avv-logo {
+  width: 150px;
+  height: auto;
+  filter: drop-shadow(0 20px 60px rgba(59, 130, 246, 0.4));
+  animation: pulse 3s ease-in-out infinite;
+}
+
 .logo-placeholder {
   display: inline-flex;
   align-items: center;
