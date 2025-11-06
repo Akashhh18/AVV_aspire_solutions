@@ -309,6 +309,19 @@ body.light-theme .section-subtitle {
   margin-top: 3rem;
 }
 
+.training-grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 968px) {
+  .training-grid-2x2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
