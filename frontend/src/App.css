@@ -607,12 +607,19 @@ body.light-theme .course-card-scroll:hover {
 .course-name-scroll {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #f1f5f9;
   text-align: center;
   min-height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+body.dark-theme .course-name-scroll {
+  color: #f1f5f9;
+}
+
+body.light-theme .course-name-scroll {
+  color: #0f172a;
 }
 
 .course-arrow-scroll {
