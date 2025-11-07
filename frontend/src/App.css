@@ -138,6 +138,8 @@ body.light-theme .hero-section {
 }
 
 .avv-logo {
+  display: block;
+  margin: 20px auto;
   width: 150px;
   height: auto;
   filter: drop-shadow(0 20px 60px rgba(59, 130, 246, 0.4));
