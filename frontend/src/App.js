@@ -177,7 +177,7 @@ function App() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="logo-container" data-testid="logo-container">
-              <img src="/avv-logo.png" alt="avv logo" className="avv-logo" />
+              <img src="public/avv-logo.png" alt="avv logo" className="avv-logo" />
           </div>
           <h1 className="hero-title" data-testid="main-title">
             AVV Aspire Solutions
