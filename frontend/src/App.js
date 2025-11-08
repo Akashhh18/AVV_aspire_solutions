@@ -457,15 +457,15 @@ function App() {
               <div className="contact-card" data-testid="contact-phone">
                 <Phone size={32} className="text-green-400 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                <p className="text-gray-400">+1 (555) 123-4567</p>
+                <p className="text-gray-400">+91 8095444144</p>
                 <p className="text-gray-400">Mon-Fri: 9AM - 6PM</p>
               </div>
               
               <div className="contact-card" data-testid="contact-location">
                 <MapPin size={32} className="text-red-400 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-                <p className="text-gray-400">123 Training Avenue</p>
-                <p className="text-gray-400">Tech City, TC 12345</p>
+                <p className="text-gray-400">JP nagar</p>
+                <p className="text-gray-400">Bengaluru, 560078</p>
               </div>
             </div>
           </AnimatedSection>

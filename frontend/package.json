@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akashtibil99.github.io/avv_aspire_solutions",
+  "homepage": "https://github.com/Akashhh18/AVV_aspire_solutions",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
