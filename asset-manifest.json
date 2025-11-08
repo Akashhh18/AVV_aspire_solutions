@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Akashhh18/AVV_aspire_solutions/static/css/main.38d4bf05.css",
-    "main.js": "/Akashhh18/AVV_aspire_solutions/static/js/main.333d1c10.js",
-    "index.html": "/Akashhh18/AVV_aspire_solutions/index.html",
-    "main.38d4bf05.css.map": "/Akashhh18/AVV_aspire_solutions/static/css/main.38d4bf05.css.map",
-    "main.333d1c10.js.map": "/Akashhh18/AVV_aspire_solutions/static/js/main.333d1c10.js.map"
+    "main.css": "/AVV_aspire_solutions/static/css/main.38d4bf05.css",
+    "main.js": "/AVV_aspire_solutions/static/js/main.333d1c10.js",
+    "index.html": "/AVV_aspire_solutions/index.html",
+    "main.38d4bf05.css.map": "/AVV_aspire_solutions/static/css/main.38d4bf05.css.map",
+    "main.333d1c10.js.map": "/AVV_aspire_solutions/static/js/main.333d1c10.js.map"
   },
   "entrypoints": [
     "static/css/main.38d4bf05.css",
